@@ -57,7 +57,7 @@ string Exercicio2()
 // Exercicio 3 - metodo auxiliar para carregar faturamento
 static List<Faturamento> CarregarFaturamento()
 {
-    string caminhoArquivo = "C:\\Users\\caver\\OneDrive\\Área de Trabalho\\STUDIES\\Test-Target\\Test-Target\\ex4.json";
+    string caminhoArquivo = "../ex4.json";
     if (!File.Exists(caminhoArquivo))
     {
         Console.WriteLine("Arquivo de faturamento não encontrado.");
